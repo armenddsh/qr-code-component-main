@@ -1,0 +1,50 @@
+*,*::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: lightblue;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.description {
+    margin-top: 1rem;
+    color: #555;
+}
