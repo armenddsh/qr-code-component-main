@@ -34,17 +34,19 @@ main {
     transform: translate(-50%,-50%);
     text-align: center;
     background: #fff;
-    width: 300px;
+    width: 315px;
+    height: 480px;
     border-radius: 10px;
 }
 
 .heading {
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: 1.3rem;
 }
 
 .description {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     color: #555;
+    word-spacing: 2px;
 }
